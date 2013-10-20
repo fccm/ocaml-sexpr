@@ -1,0 +1,8 @@
+description = "a very simple parsing library for S-expressions"
+version = "devel"
+
+archive(byte) = "SExpr.cma"
+archive(native) = "SExpr.cmxa"
+archive(byte,plugin) = "SExpr.cma"
+archive(native,plugin) = "SExpr.cmxs"
+exists_if = "SExpr.cma"
