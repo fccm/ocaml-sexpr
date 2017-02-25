@@ -3,6 +3,5 @@ version = "devel"
 
 archive(byte) = "SExpr.cma"
 archive(native) = "SExpr.cmxa"
-archive(byte,plugin) = "SExpr.cma"
-archive(native,plugin) = "SExpr.cmxs"
-exists_if = "SExpr.cma"
+plugin(byte) = "SExpr.cma"
+plugin(native) = "SExpr.cmxs"
